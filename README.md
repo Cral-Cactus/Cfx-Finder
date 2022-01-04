@@ -22,3 +22,9 @@ FiveM Servers Cfx Finder
 > 1. Type **!cfx** to see example
 > 2. Now do **!cfx cfx code**, replace words **cfx code** with server **cfx code**
 > 3. Enjoy Using
+
+<h2>Preview:</h2>
+
+<img align="left" alt="1" src="https://i.imgur.com/HhUE1aS.png" />
+<img alt="2" src="https://i.imgur.com/EW5uhm2.png" />
+<img alt="3" src="https://i.imgur.com/HaUrnKK.png" />
