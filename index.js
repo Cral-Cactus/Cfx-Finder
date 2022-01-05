@@ -81,7 +81,7 @@ client.on("messageCreate", message => {
                             var onesync = 'Disabled'
                         }
 
-                        // Another shit api request to some api lookup
+                        // Another shit api request to some api lookup.
                         request.get({
                             url: `http://ip-api.com/json/${ip}`,
                             json: true,
