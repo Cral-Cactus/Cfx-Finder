@@ -1,4 +1,4 @@
-console.clear();
+console.clear(); // Clear console
 
 require('dotenv').config();
 const Discord = require("discord.js");
