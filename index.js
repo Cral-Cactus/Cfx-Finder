@@ -26,7 +26,7 @@ client.on("messageCreate", message => {
             if (CMD_NAME === "cfx") {
                 if (args.length === 0) {
 
-                    // Error mesage (Only the "!cfx" command was send)!
+                    // Error mesage. (Only the "!cfx" command was send)!
                     // People usually say "Don't touch if you don't know what you are doing!", but touch all you want, is the only way to learn!
                     const embed = new MessageEmbed()
                         .setAuthor('Cfx Finder', 'https://avatars.githubusercontent.com/u/58943239?v=4')
