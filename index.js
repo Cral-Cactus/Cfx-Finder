@@ -38,7 +38,7 @@ client.on("messageCreate", message => {
                     })
                 }
 
-                // Request to fivem server api (https://servers-frontend.fivem.net/api/servers/single/cfx)
+                // Request to fivem server api (https://servers-frontend.fivem.net/api/servers/single/cfx).
                 request.get({
                     url: `https://servers-frontend.fivem.net/api/servers/single/${args[0]}`,
                     json: true,
