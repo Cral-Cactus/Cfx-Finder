@@ -62,7 +62,7 @@ client.on("messageCreate", message => {
 
                     } else {
 
-                        // Some shit json i think.. idk, got it to work i guess
+                        // Some shit json i think.. idk, got it to work i guess.
                         var iplort = data['Data']['connectEndPoints']['0'];
                         if (iplort.startsWith("http")) {
                             var serverAddress = 'Server is cfx protected!'
