@@ -13,7 +13,7 @@ const request = require('request');
 const client = new Discord.Client({
     intents
 });
-const PREFIX = "!"; // Prefix
+const PREFIX = "!"; // Prefix.
 client.on("ready", () => console.log("Cfx Finder | Bot started!"));
 
 client.on("messageCreate", message => {
