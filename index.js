@@ -98,7 +98,7 @@ client.on("messageCreate", message => {
                                 var isp = 'Timeout'
                                 var city = 'Timeout'
 
-                                // Embed dog shit
+                                // Embed dog shit.
                                 const embed = new MessageEmbed()
                                     .setAuthor('Cfx Finder', 'https://avatars.githubusercontent.com/u/58943239?v=4')
                                     .addField(':electric_plug: Server Address & Port :electric_plug:', `\`\`\`${serverAddress}\`\`\``)
