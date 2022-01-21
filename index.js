@@ -100,7 +100,7 @@ client.on("messageCreate", message => {
 
                                 // Embed dog shit.
                                 const embed = new MessageEmbed()
-                                    .setAuthor('Cfx Finder', 'https://avatars.githubusercontent.com/u/58943239?v=4')
+                                    .setAuthor('Cfx Finder', 'https://avatars.githubusercontent.com/u/58943239?v=4') // Author place
                                     .addField(':electric_plug: Server Address & Port :electric_plug:', `\`\`\`${serverAddress}\`\`\``)
                                     .addField(':earth_africa: Network Information :earth_africa:', `▸Server Cfx | \`${args[0]}\`\n▸Server Address | \`${ip}\`\n▸Server Port | \`${port}\``)
                                     .addField(':link: Server Information :link:', `▸Online Players | \`${data['Data']['clients']}/${data['Data']['sv_maxclients']}\`\n▸Gamebuild | \`${data['Data']['vars']['sv_enforceGameBuild']}\`\n▸Onesync | \`${onesync}\``)
