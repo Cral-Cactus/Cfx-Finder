@@ -93,7 +93,7 @@ client.on("messageCreate", message => {
                                 console.log('Error:', error);
                             } else if (response.statusCode !== 200) {
 
-                                // Idk, still working i guess
+                                // Idk, still working i guess.
                                 var country = 'Timeout'
                                 var isp = 'Timeout'
                                 var city = 'Timeout'
