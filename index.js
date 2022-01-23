@@ -8,7 +8,7 @@ const {
 } = require('discord.js');
 const {
     on
-} = require('nodemon');
+} = require('nodemon'); // Requires nodemon
 const request = require('request');
 const client = new Discord.Client({
     intents
