@@ -50,7 +50,7 @@ client.on("messageCreate", message => {
                         console.log('Error:', err);
                     } else if (res.statusCode !== 200) {
 
-                        // Error mesage. (Api did not response with statuscode 200)
+                        // Error mesage. (Api did not response with statuscode 200).
                         const embed = new MessageEmbed()
                             .setAuthor('Cfx Finder', 'https://avatars.githubusercontent.com/u/58943239?v=4')
                             .addField('Cfx Address is unavaible!', 'Please try again later...')
