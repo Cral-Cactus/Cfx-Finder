@@ -5,7 +5,7 @@ const Discord = require("discord.js");
 const intents = new Discord.Intents(32767);
 const {
     MessageEmbed
-} = require('discord.js');
+} = require('discord.js'); // Requires discord.js
 const {
     on
 } = require('nodemon'); // Requires nodemon
